@@ -20,5 +20,11 @@ namespace GitTest
             }
             Console.WriteLine("Here is value of the counter: {0}", counter);
         }
+
+        public static int GetSomeNumber()
+        {
+            Random rand = new Random();
+            return rand.Next();
+        }
     }
 }
